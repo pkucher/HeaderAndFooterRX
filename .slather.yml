@@ -1,0 +1,8 @@
+# .slather.yml
+
+coverage_service: terminal
+xcodeproj: /Users/brq/Documents/HeaderandFooterTraining/HeaderandFooterTraining.xcodeproj
+scheme: HeaderandFooterTraining
+configuration: TestedConfiguration
+source_directory: /Users/brq/Documents/HeaderandFooterTraining/
+output_directory: /Users/brq/Documents/HeaderandFooterTraining/sonar-reports/coverage.xml

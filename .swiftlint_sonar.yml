@@ -1,0 +1,225 @@
+
+#TODO: organizar diretório (Package) do projeto e incluir/remover pastas necessárias
+# paths to ignore during linting. Takes precedence over `included`.
+excluded:
+  - Pods
+  #- Frameworks/NextAssets
+  - Frameworks/Thunder
+  - Frameworks/mobileToken_NEXT_IOS-1.0.1
+  - Frameworks/Sweener
+  - Frameworks/DSPhotoQuality
+  - Frameworks/DSPhotoSDK
+  - Frameworks/ScopusCommonCrypto
+  - Frameworks/ScopusCriptografiaAdicionalClient 
+  - Next-Extensions
+  - Next-Bradesco/CONFIG
+  - Frameworks/NextSupport/NextSupport
+  - R.generated.swift
+
+
+
+whitelist_rules:
+
+  # defaults:         
+  - colon # 4571 warnings/errors + run auto correct  + run success  Enable
+  - comma #1610 errors + run auto correct + run success Enable
+  - empty_enum_arguments # 63 errors + run auto correct + run success Enable
+  - empty_parameters # 29 errors + run auto correct + run success Enable
+  - empty_parentheses_with_trailing_closure # 52 errors + run auto correct + run success Enable
+  - leading_whitespace  # 17 errors + run auto correct+ run success Enable
+  - legacy_cggeometry_functions # no errors Enable
+  - legacy_constant # 6 errors + run auto correct + run success Enable
+  - legacy_constructor #37 errors + run auto correct + Enable
+  - legacy_nsgeometry_functions # no errors + run auto correct + run success Enable
+  - protocol_property_accessors_order # 2 errors + run auto correct + run success  Enable
+  - redundant_discardable_let # 2 errors + run auto correct + run success Enable
+  - redundant_objc_attribute # no errors Enable
+  - redundant_optional_initialization #239 error + run auto correct + run success Enable
+  - redundant_void_return #  8 errors + run auto correct  +  run success  Enable
+  - return_arrow_whitespace # 31 errors + run auto correct + Enable
+  - statement_position  # 808 warnings/errors + run auto correct + Enable
+  - trailing_comma # no errors Enable
+  - trailing_semicolon #97 errors + run auto correct + run success Enable 
+  - modifier_order #869 warnings/errors +run auto correct + run success OK
+  - operator_usage_whitespace # 727 errors + run auto correct + run success   OK
+  - unneeded_parentheses_in_closure_argument #305 errors + run auto correct +  run success  OK
+  - mark # 304 errors + auto correct + run success + Enable
+  - trailing_newline #Enable Run Test 322 errors + run auto correct + run success(apos retirar arquivos que sao alterados pelo rx)
+  - unused_control_flow_label # no errors + run auto correct + run success Enable
+  - void_return # 95 errors + run auto correct + run success Enable
+  - weak_computed_property # no errors + run auto correct + run success Enable
+  - unused_closure_parameter # 268 errors + run  auto correct + run success(after solve 2 errors)  Enabled
+  - unused_import # no errors + run auto correct + run success N
+  - block_based_kvo
+  - class_delegate_protocol
+  - closing_brace 
+  - closure_parameter_position 
+  - compiler_protocol_init   
+  - control_statement 
+  - cyclomatic_complexity    
+  - discarded_notification_center_observer 
+  - discouraged_direct_init 
+  - dynamic_inline  
+  - file_length
+  - for_where 
+  - force_cast 
+  - force_try 
+  - function_body_length
+  - function_parameter_count 
+  - generic_type_name
+  - identifier_name
+  - implicit_getter
+  - is_disjoint
+  - large_tuple
+  - line_length 
+  - multiple_closures_with_trailing_closure
+  - nesting
+  - no_fallthrough_only
+  - notification_center_detachment
+  - opening_brace
+  - operator_whitespace 
+  - private_over_fileprivate 
+  - private_unit_test
+  - redundant_set_access_control
+  - redundant_string_enum_value
+  - shorthand_operator
+  - superfluous_disable_command
+  - switch_case_alignment
+  - syntactic_sugar
+  - todo
+  - trailing_whitespace
+  - type_body_length
+  - type_name
+  - unneeded_break_in_switch
+  - unused_enumerated
+  - unused_optional_binding
+  - valid_ibinspectable
+  - vertical_parameter_alignment
+  - vertical_whitespace
+  - weak_delegate
+  - xctfail_message
+  - anyobject_protocol
+  - array_init
+  - attributes
+  - closure_body_length
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - conditional_returns_on_newline
+  - contains_over_first_not_nil
+  - convenience_type
+  - custom_rules
+  - deployment_target
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - duplicate_imports 
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - explicit_acl
+  - explicit_enum_raw_value
+  - explicit_init
+  - explicit_self 
+  - explicit_top_level_acl
+  - explicit_type_interface
+  - extension_access_modifier
+  - fallthrough
+  - fatal_error_message
+  - file_header
+  - file_name  
+  - first_where
+  - force_unwrapping
+  - function_default_parameter_at_end
+  - identical_operands 
+  - implicit_return
+  - implicitly_unwrapped_optional 
+  - inert_defer
+  - joined_default_parameter 
+  - last_where  
+  - legacy_hashing
+  - legacy_random
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - lower_acl_than_parent 
+  - missing_docs
+  - multiline_arguments
+  #- multiline_arguments_brackets
+  - multiline_function_chains 
+  #- multiline_literal_brackets
+  - multiline_parameters
+  #- multiline_parameters_brackets
+  - nimble_operator 
+  - no_extension_access_modifier
+  - no_grouping_extension
+  - nslocalizedstring_key 
+  - number_separator
+  - object_literal 
+  - overridden_super_call 
+  - override_in_extension 
+  - pattern_matching_keywords 
+  - prefixed_toplevel_constant
+  - private_action
+  - private_outlet 
+  - prohibited_interface_builder
+  - prohibited_super_call
+  - quick_discouraged_call
+  - quick_discouraged_focused_test 
+  - quick_discouraged_pending_test
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  #- required_deinit 
+  - required_enum_case
+  - single_test_class
+  - sorted_first_last
+  - sorted_imports 
+  - static_operator 
+  - strict_fileprivate
+  #- strong_iboutlet 
+  - switch_case_on_newline 
+  - toggle_bool 
+  - trailing_closure   
+  - unavailable_function
+  - untyped_error_in_catch 
+  - unused_private_declaration
+  - unused_setter_value
+  - vertical_parameter_alignment_on_call
+  #- vertical_whitespace_between_cases
+  #- vertical_whitespace_closing_braces
+  #- vertical_whitespace_opening_braces
+  - xct_specific_matcher 
+  - yoda_condition
+  # not_default
+
+  # opt_in
+
+
+# Configurations
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

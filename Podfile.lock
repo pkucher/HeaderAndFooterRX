@@ -1,0 +1,52 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - Realm (3.11.2):
+    - Realm/Headers (= 3.11.2)
+  - Realm/Headers (3.11.2)
+  - RealmSwift (3.11.2):
+    - Realm (= 3.11.2)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - RealmSwift
+  - RxCocoa
+  - RxSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - Realm
+    - RealmSwift
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  Realm: 864477d028db77f7c5a0cba64a4892ad53db128a
+  RealmSwift: 12b8262fc08020b47de4fd88eb3d5c9425b34ec7
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 225840a86da2dc4e34c3275c9e128c4e7259b525
+
+COCOAPODS: 1.5.3
