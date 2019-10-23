@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSPlacesClient.provideAPIKey("AIzaSyAXBEZmg9e0fukk698wQqBP1qXf889tAWY")
         window = UIWindow()
         window?.makeKeyAndVisible()
-        let navigationController = UINavigationController(rootViewController: LoginViewController())
+        let navigationController = UINavigationController(rootViewController: testViewController())
         window?.rootViewController = navigationController
         return true
     }

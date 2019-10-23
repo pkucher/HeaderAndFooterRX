@@ -11,6 +11,7 @@
 		630A58F821C9175E00C973B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A58F721C9175E00C973B3 /* LoginViewController.swift */; };
 		630A58FA21C9210A00C973B3 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A58F921C9210A00C973B3 /* UIButtonExtension.swift */; };
 		6352487D21E8F4E200C40E75 /* SwiftJsonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352487C21E8F4E200C40E75 /* SwiftJsonViewModel.swift */; };
+		63A6FA312317F8D900580D92 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6FA302317F8D900580D92 /* testViewController.swift */; };
 		63B40E9421E3CE1B007BB717 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B40E9321E3CE1B007BB717 /* Utils.swift */; };
 		63B7930321CBB2FA00DC2A6A /* textFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7930221CBB2FA00DC2A6A /* textFieldExtension.swift */; };
 		63B7930521CBB58200DC2A6A /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7930421CBB58200DC2A6A /* LabelExtension.swift */; };
@@ -35,6 +36,7 @@
 		630A58F721C9175E00C973B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		630A58F921C9210A00C973B3 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		6352487C21E8F4E200C40E75 /* SwiftJsonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonViewModel.swift; sourceTree = "<group>"; };
+		63A6FA302317F8D900580D92 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		63B40E9321E3CE1B007BB717 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		63B7930221CBB2FA00DC2A6A /* textFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldExtension.swift; sourceTree = "<group>"; };
 		63B7930421CBB58200DC2A6A /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				63C1D7AB21B802670044E45C /* Assets.xcassets */,
 				63C1D7AD21B802670044E45C /* LaunchScreen.storyboard */,
 				63C1D7B021B802670044E45C /* Info.plist */,
+				63A6FA302317F8D900580D92 /* testViewController.swift */,
 			);
 			path = HeaderandFooterTraining;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				63C1D7B721B802AD0044E45C /* MainViewController.swift in Sources */,
 				63EA09FE21CAB53A003A8974 /* RxSwiftViewController.swift in Sources */,
 				63C1D7BB21B805320044E45C /* MyViewController.swift in Sources */,
+				63A6FA312317F8D900580D92 /* testViewController.swift in Sources */,
 				63C394B82240322F0064E703 /* WebViewController.swift in Sources */,
 				6306926E2220255000DB5CF2 /* PlacesViewController.swift in Sources */,
 				630A58F821C9175E00C973B3 /* LoginViewController.swift in Sources */,
